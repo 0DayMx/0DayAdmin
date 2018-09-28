@@ -1,0 +1,18 @@
+﻿<Controls:MetroWindow x:Class="_0DayAdmin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+     xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:_0DayAdmin"
+        mc:Ignorable="d"
+        Title="0Day - Administrativo" Background="WhiteSmoke" Width="335.984" WindowStartupLocation="CenterScreen" Height="491.522">
+    <Grid Margin="-2,10,-8,-2">
+        <TextBox x:Name="txtusuario" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Usuario" Height="23" Margin="51,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" BorderBrush="Black"/>
+        <PasswordBox x:Name="pbcontraseña" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Contraseña" Margin="51,305,0,0" VerticalAlignment="Top" Width="248" BorderBrush="Black"/>
+        <Image HorizontalAlignment="Left" Height="167" Margin="81,29,0,0" VerticalAlignment="Top" Width="183" Stretch="Fill" Source="Img/0Day.png" RenderTransformOrigin="0.283,0.501"/>
+        <Button x:Name="btningresar" Content="Ingresar" HorizontalAlignment="Left" Margin="125,364,0,0" VerticalAlignment="Top" Width="99" Background="Green" BorderBrush="Green" BorderThickness="1" Click="btningresar_Click" Foreground="White" />
+    </Grid>
+</Controls:MetroWindow>
