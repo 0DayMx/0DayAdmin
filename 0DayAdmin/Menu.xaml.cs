@@ -27,20 +27,6 @@ namespace _0DayAdmin
             InitializeComponent();
         }
 
-        private void Tile_Click_1(object sender, RoutedEventArgs e)
-        {
-            flyprueba.IsOpen = true;
-        }
-
-        private void Tile_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private async void Image_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            await this.ShowMessageAsync("No te pierdas el siguiente tutorial :D", "Por favor no olvides suscribirte y darle like si te ha gustado el video...");
-
-        }
+      
     }
 }

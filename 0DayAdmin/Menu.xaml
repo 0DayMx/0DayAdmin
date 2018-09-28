@@ -5,35 +5,5 @@
         xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         Title="Menu" Background="Gainsboro" Height="555" Width="1193.004" WindowStartupLocation="CenterScreen" Icon="Img/0Day.ico" >
-    <Grid>
-        <Controls:Tile Margin="47,71,929,51" Width="Auto" Height="Auto" Title="Usuarios" Click="Tile_Click_1" >
-            <Image Source="Img/User-Profile.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="283,290,712,51" Width="Auto" Height="Auto" Title="Musica" >
-            <Image Source="Img/CD-Music.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="283,71,493,270" Width="Auto" Height="Auto" Title="Archivos" >
-            <Image Source="Img/Folder-Open.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="941,290,54,51" Width="Auto" Height="Auto" Title="Alarma" >
-            <Image Source="Img/Alarm-Clock.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="721,71,274,270" Width="Auto" Height="Auto" Title="Bateria" >
-            <Image Source="Img/Battery-Charging.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="941,71,54,270" Width="Auto" Height="Auto" Title="Cámara" >
-            <Image Source="Img/Camera-02.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="502,290,493,51" Width="Auto" Height="Auto" Title="Noticias" Click="Tile_Click" >
-            <Image Source="Img/Newspaper.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Tile Margin="721,290,274,51" Width="Auto" Height="Auto" Title="Finanzas" >
-            <Image Source="Img/Money-Credit-Card.png" Width="143" Height="119"/>
-        </Controls:Tile>
-        <Controls:Flyout x:Name="flyprueba" IsOpen="False" Position="Right" Width="269" Header="Hola !!!">
-            <Canvas>
-                <Image Source="Img/Like.png" Canvas.Left="3" Canvas.Top="71" Width="266" Height="274" MouseDown="Image_MouseDown" Cursor="Hand"></Image>
-            </Canvas>
-        </Controls:Flyout>
-    </Grid>
+    <Grid/>
 </Controls:MetroWindow>
